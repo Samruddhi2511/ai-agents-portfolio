@@ -4,7 +4,7 @@ def chat():
     print("AI started. Type 'exit' to quit.\n")
 
     while True:
-        user_input = input("You: ")
+        user_input = input("Ask quetion: ")
 
         if user_input.lower() == "exit":
             break
